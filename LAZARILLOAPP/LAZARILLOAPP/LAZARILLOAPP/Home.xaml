@@ -3,11 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LAZARILLOAPP.Home">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="Black">
-            <Label x:Name="Txtlon"></Label>
-            <Label x:Name="Txtlat"></Label>
-            <Button Text="Localizar" Clicked="Localizar_Clicked"></Button>
-            
+        <StackLayout BackgroundColor="Black" Padding="60"
+                     VerticalOptions="Center"
+                     >
+            <Grid Padding="0,0,0,50">
+            <Label x:Name="Txtlon"
+                   TextColor="Yellow"
+                   FontSize="20"></Label>
+            <Label x:Name="Txtlat"
+                   TextColor="Yellow" FontSize="Medium"></Label>
+            <Button Text="Localizar" Clicked="Localizar_Clicked"
+                    BackgroundColor="Gray"
+                    TextColor="White"></Button>
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
