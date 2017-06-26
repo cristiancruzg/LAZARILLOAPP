@@ -15,6 +15,7 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		LAZARILLOAPP\LAZARILLOAPP\LAZARILLOAPP.projitems*{1c5e0de0-dc6b-40f8-8970-1ff0368b6b51}*SharedItemsImports = 13
 		LAZARILLOAPP\LAZARILLOAPP\LAZARILLOAPP.projitems*{5a290dd1-a847-4298-ac7d-0f163e53b3f1}*SharedItemsImports = 4
+		LAZARILLOAPP\LAZARILLOAPP\LAZARILLOAPP.projitems*{68236c3b-2333-4739-a719-6cdb9b74774b}*SharedItemsImports = 4
 		LAZARILLOAPP\LAZARILLOAPP\LAZARILLOAPP.projitems*{7049e5fa-ff36-46ae-92e9-258328c44bcb}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
