@@ -22,11 +22,15 @@ namespace LAZARILLOAPP
             var locator = CrossGeolocator.Current;
             locator.DesiredAccuracy = 50;
 
-            await locator.StartLIstemingAsinc(5, 20);
 
-            locator.PositionChanges += (cambio, args) =>
+
+            await locator.StartListeningAsync(5, 20);
+
+            locator.PositionChanged += (cambio, args) =>
             {
                 var loc = args.Position;
+                Txtlat.Text = loc.Latitude.ToString();
+                Txtlon.Text = loc.Longitude.ToString();
               
                 
             };

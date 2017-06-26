@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LAZARILLOAPP.Home">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="Black">
             <Label x:Name="Txtlon"></Label>
             <Label x:Name="Txtlat"></Label>
             <Button Text="Localizar" Clicked="Localizar_Clicked"></Button>
