@@ -1,7 +1,11 @@
 ﻿{
   "dependencies": {
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
-    "Xamarin.Forms": "2.3.4.224"
+    "Xam.Plugin.Geolocator": "3.0.4",
+    "Xam.Plugins.Vibrate": "2.0.0",
+    "Xamarin.Forms": "2.3.4.224",
+    "Xamarin.Forms.Maps": "2.3.4.247",
+    "Xamarin.Forms.Notify": "1.0.6149.17555"
   },
   "frameworks": {
     "uap10.0": {}

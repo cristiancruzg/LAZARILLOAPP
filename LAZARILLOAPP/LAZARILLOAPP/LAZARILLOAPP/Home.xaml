@@ -4,7 +4,7 @@
              x:Class="LAZARILLOAPP.Home">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin Forms!" />
+            <entry x: />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
