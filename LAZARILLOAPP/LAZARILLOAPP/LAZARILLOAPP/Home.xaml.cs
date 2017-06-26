@@ -16,5 +16,7 @@ namespace LAZARILLOAPP
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void 
+    }
 }

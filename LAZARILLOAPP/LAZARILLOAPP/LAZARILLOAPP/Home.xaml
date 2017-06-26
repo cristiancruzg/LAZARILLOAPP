@@ -4,7 +4,9 @@
              x:Class="LAZARILLOAPP.Home">
     <ContentPage.Content>
         <StackLayout>
-            <entry x: />
+            <label x:Name="Txtlon"></label>
+            <label x:Name="Txtlat"></label>
+            <Button text:"Localitation" Clickked=""></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
