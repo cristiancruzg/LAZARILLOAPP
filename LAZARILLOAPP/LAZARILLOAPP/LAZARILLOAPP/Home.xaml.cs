@@ -13,29 +13,27 @@ namespace LAZARILLOAPP
 	public partial class Home : ContentPage
 	{
 		public Home ()
-		{
-			InitializeComponent ();
-		}
-
-        private async void Localizar_Clicked(object sender,EventArgs e)
         {
+            InitializeComponent();
+
+            Localizar.Clicked += localizar_Clicked;
+        }
+
+        private async void localizar_Clicked(object sender, EventArgs e)
+        {
+            await RetreiveLocation ();
+        }
+
+        private  async Task RetreiveLocation ()
+        {
+            
             var locator = CrossGeolocator.Current;
-            locator.DesiredAccuracy = 50;
+            locator.DesiredAccuracy = 20;
 
+            var position = await locator.GetPositionAsync(timeoutMilliseconds: 10000);
 
-
-            await locator.StartListeningAsync(5, 20);
-
-            locator.PositionChanged += (cambio, args) =>
-            {
-                var loc = args.Position;
-                Txtlat.Text = loc.Latitude.ToString();
-                Txtlon.Text = loc.Longitude.ToString();
-              
-                
-            };
-
-
+            Txtlat.Text = "latitud: "+position.Latitude.ToString();
+            Txtlon.Text = "Longitud: "+position.Longitude.ToString();
         }
     }
 }

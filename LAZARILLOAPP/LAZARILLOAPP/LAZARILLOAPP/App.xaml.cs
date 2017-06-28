@@ -13,7 +13,7 @@ namespace LAZARILLOAPP
 		{
 			InitializeComponent();
 
-			MainPage = new LAZARILLOAPP.MainPage();
+			MainPage = new Home();
 		}
 
 		protected override void OnStart ()
