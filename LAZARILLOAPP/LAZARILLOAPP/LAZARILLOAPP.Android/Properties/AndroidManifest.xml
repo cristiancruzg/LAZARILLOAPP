@@ -11,5 +11,9 @@
 	<uses-permission android:name="android.permission.VIBRATE" />
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.INTERNET" />
-	<application android:label="LAZARILLOAPP.Android" android:icon="@drawable/Icon"></application>
+  
+	<application android:label="LAZARILLOAPP.Android" android:icon="@drawable/Icon">
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyDk12SMmVUndRNHT1dBscJ5NfD2z-uILMU"></meta-data>
+  </application>
+  
 </manifest>

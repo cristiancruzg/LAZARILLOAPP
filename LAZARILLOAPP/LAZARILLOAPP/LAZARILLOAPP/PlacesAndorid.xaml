@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LAZARILLOAPP.PlacesAndorid">
+    <ContentPage.Content>
+        <LinearLayout xmlns:andriod="http://schemas.android.com/apk/res/android"
+                      andriod:orientation="vertical"
+                      andriod:layout_width="fill_parent"
+                      android:layout_heigth="fill_parent">
+            <Button
+                andriod:id="@+id_main_pickAPlaceButton"
+                andriod:layout_width="fill_parent"
+                andriod:layout_heigth="wrap_content"
+                andriod:text="Pick A Place"/>
+            <Textview 
+                andriod:text="Name"
+                andriod:textAppearance="?android:attr/textAppearenceLarge"
+                andriod:layout_width="match_parent"
+                andriod:layout_heigth="wrap_content"
+                andriod:paddingTop="20dp"
+                andriod:paddingBottom="20dp"
+                andriod:paddingLeft="10dp"
+                andriod:paddingRight="10dp"
+                andriod:id="@id/mainPlaceName"/>
+            <Textview 
+                andriod:text="Address"
+                andriod:textAppearance="?android:attr/textAppearenceMedium"
+                andriod:layout_width="match_parent"
+                andriod:layout_heigth="wrap_content"
+                andriod:paddingTop="20dp"
+                andriod:paddingBottom="20dp"
+                andriod:paddingLeft="10dp"
+                andriod:paddingRight="10dp"
+                andriod:id="@id/mainPlaceAddress"/>
+            <Textview 
+                andriod:text="Phone Number"
+                andriod:textAppearance="?android:attr/textAppearenceMedium"
+                andriod:layout_width="match_parent"
+                andriod:layout_heigth="wrap_content"
+                andriod:paddingTop="20dp"
+                andriod:paddingBottom="20dp"
+                andriod:paddingLeft="10dp"
+                andriod:paddingRight="10dp"
+                andriod:id="@id/mainPlacePhoneNumber"/>
+            <Textview 
+                andriod:text="WebSite"
+                andriod:textAppearance="?android:attr/textAppearenceMedium"
+                andriod:layout_width="match_parent"
+                andriod:layout_heigth="wrap_content"
+                andriod:paddingTop="20dp"
+                andriod:paddingBottom="20dp"
+                andriod:paddingLeft="10dp"
+                andriod:paddingRight="10dp"
+                andriod:id="@id/mainPlaceWebSite"/>
+        </LinearLayout>
+
+    </ContentPage.Content>
+</ContentPage>
