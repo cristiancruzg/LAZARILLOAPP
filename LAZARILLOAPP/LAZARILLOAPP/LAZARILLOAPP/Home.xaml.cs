@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Plugin.Geolocator;
 using Xamarin.Forms;
+using Xamarin.Forms.Maps;
 using Xamarin.Forms.Xaml;
 
 namespace LAZARILLOAPP
@@ -34,6 +35,10 @@ namespace LAZARILLOAPP
 
             Txtlat.Text = "latitud: "+position.Latitude.ToString();
             Txtlon.Text = "Longitud: "+position.Longitude.ToString();
+
+            MyMap.MoveToRegion(
+                                 MapSpan.FromCenterAndRadius(new Position(position.Latitude, position.Longitude),
+                                 Distance.FromMeters(20)));
         }   
     }
 }
