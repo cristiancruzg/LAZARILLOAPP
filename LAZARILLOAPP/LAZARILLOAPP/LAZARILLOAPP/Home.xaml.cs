@@ -34,6 +34,6 @@ namespace LAZARILLOAPP
 
             Txtlat.Text = "latitud: "+position.Latitude.ToString();
             Txtlon.Text = "Longitud: "+position.Longitude.ToString();
-        }
+        }   
     }
 }

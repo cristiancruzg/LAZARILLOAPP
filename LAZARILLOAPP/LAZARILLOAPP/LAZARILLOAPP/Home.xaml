@@ -14,16 +14,17 @@
                 
             <StackLayout Grid.Row="1" BackgroundColor="Beige" Padding="60"
                      VerticalOptions="Center">
-                <Button x:Name="Localizar" Text="Localizar"  
+                <Button x:Name="Localizar" Text="Localizar" Clicked="localizar_Clicked" 
                     BackgroundColor="Gray"
                     TextColor="White"/>
 
            
             <Label x:Name="Txtlon"
                    TextColor="Yellow"
-                   FontSize="20"/>
+                   FontSize="20"
+                   Text="Longitud"/>
             <Label x:Name="Txtlat"
-                   TextColor="Yellow" FontSize="Medium"/>
+                   TextColor="Yellow" FontSize="Medium" Text="Latitud"/>
             </StackLayout>
         </Grid>
         
